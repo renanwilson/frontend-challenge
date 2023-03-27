@@ -1,11 +1,12 @@
 import { EmployeesContextProvider } from "contexts/EmployeesContext";
+import { Index } from "pages/Index/Index";
 import React from "react";
 
 function App() {
   return (
     <div className="App">
       <EmployeesContextProvider>
-        <h1>Initial</h1>
+        <Index />
       </EmployeesContextProvider>
     </div>
   );
