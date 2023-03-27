@@ -4,7 +4,7 @@ export const HeaderSection = styled.header`
   width: 100%;
   height: 100px;
   background-color: #1c1c1c;
-  padding-left: 5rem;
+  padding-left: 32px;
   display: flex;
   align-items: center;
 `;
