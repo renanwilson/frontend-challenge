@@ -16,7 +16,7 @@ export const INITIAL_STATE_EMPLOYEES: IEmployees[] = [
     admission_date: "",
     name: "",
     office: "",
-    phone: 0,
+    phone: "",
     photo: "",
   },
 ];
@@ -36,7 +36,7 @@ const INITIAL_STATE: EmployeesContextProps = {
 export const EmployeesContext =
   createContext<EmployeesContextProps>(INITIAL_STATE);
 
-export const useListContext = () => useContext(EmployeesContext);
+export const useEmployeesContext = () => useContext(EmployeesContext);
 
 export const EmployeesContextProvider = ({
   children,

@@ -4,7 +4,7 @@
             "id": 1,
             "name": "Rodrigo Mota",
             "office": "Front-end",
-            "phone": 5511967524031,
+            "phone": "5511967524031",
             "photo": "https://s3-alpha-sig.figma.com/img/e4ce/87c7/0d44829fc1f821f75772661b7078f9fd?Expires=1681084800&Signature=TSTWWhjZt7521yA2dAXYeAskfFhOq5q8IINfv0cn8qQkXMtQB~vnE96SvinYwM8IHkWFrgBG-Ieln~OpUvXsLAkZWR7YepgLNf43tXO6XMYPE-hbdRZZnsQdGahA45No4a6C~Hg8pe4l-Etth2EUlpF8fB1avB-jrvurTizKc7Yu~tqWs4IeUQ474DLdpbZjNrE7xuAoZVxWRI3EusRo6DSte5qM8hQAPEg4jQBGL4ysdaoN5eAkw0RNTVMFF3VaSCrdsNBSziKNxs359K939NLNHJ-71NARW3ugtar-qT0B2jEsbB-gFtcBIbu21Ns4Zrpc98g-Ly2HPmlDVcoz7g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "admission_date": "2022-04-22T12:00:48+02:00"
         },
@@ -12,7 +12,7 @@
             "id": 2,
             "name": "Giovana L. Arruda",
             "office": "Back-end",
-            "phone": 5511960324071,
+            "phone": "5511960324071",
             "photo": "https://s3-alpha-sig.figma.com/img/e468/72ae/0b029f540984b0df2c2881c85304f655?Expires=1681084800&Signature=GaH9cdnFDlilSGl0jiM7H6GXd8~c6LDHTbW-uPnKqJm9tpsGp0EZ-4LxUfTY9m5ZX5SG5G0N592PB-rnW9U~7~hceF2BeJeC~l7raJmM10mMUezK7RY6DxwAOhxTQRE7epKVEm1t3~OQejD0DLSPlMNMGTAOL4xFifZ1gMrP4CASf4HmTA8CD0Qm5Mj3HGVtdI-TeEi49t9YlmHh~86RVX5vb0XKZLQmpypwc2NL0iQQxhj0AHZGhUhH3VFHd9CCirgL5WQd0b1pE-WwU3AJ~6w7uUVdnpxJHiHk1X5m9NQo0fjMGy7PDI0cgBAkm6rfoCP8yp3D3bsQPFuvP4py6A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "admission_date": "2022-04-22T12:00:48+02:00"
         },
@@ -20,7 +20,7 @@
             "id": 3,
             "name": "Luciano Triumfo",
             "office": "Designer",
-            "phone": 5511962324071,
+            "phone": "5511962324071",
             "photo": "https://s3-alpha-sig.figma.com/img/073b/b776/f3b212a8e1c74191d88af2736aa635b6?Expires=1681084800&Signature=MIqL9ZqUv1R-das~5ov7srB61zh8YNjOe7USXVfnYyWWD~qSUJUWPI2W7nLrwdeFo5OstklxHR6ZNvnt67BQuI1bRmKZojf4yxw3JG~PFsvmc4kVbz4egu5fxjT-6bgMtmT9idi7FY5WtshvXkQ5KP2x5XLaE7fTotML15pjnGsKwWGnwqQDuaf6t07hbnkYzOvDr47W2q3NK4KsXsvCk7lkBt7T2PJfI~tBPWRq0St0PDBQbYJV4ikRNsGFriKC38Mb5WAzO6vAmjmM1WYgDeYl79PhA5m2ZoNF7diUpv82BIehUGTZxdYD2a9T677GDt20wlek2kSheewTddLxwA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "admission_date": "2022-04-22T12:00:48+02:00"
         },
@@ -28,7 +28,7 @@
             "id": 4,
             "name": "Rodrigo Mota",
             "office": "Front-end",
-            "phone": 5511963324071,
+            "phone": "5511963324071",
             "photo": "https://s3-alpha-sig.figma.com/img/e4ce/87c7/0d44829fc1f821f75772661b7078f9fd?Expires=1681084800&Signature=TSTWWhjZt7521yA2dAXYeAskfFhOq5q8IINfv0cn8qQkXMtQB~vnE96SvinYwM8IHkWFrgBG-Ieln~OpUvXsLAkZWR7YepgLNf43tXO6XMYPE-hbdRZZnsQdGahA45No4a6C~Hg8pe4l-Etth2EUlpF8fB1avB-jrvurTizKc7Yu~tqWs4IeUQ474DLdpbZjNrE7xuAoZVxWRI3EusRo6DSte5qM8hQAPEg4jQBGL4ysdaoN5eAkw0RNTVMFF3VaSCrdsNBSziKNxs359K939NLNHJ-71NARW3ugtar-qT0B2jEsbB-gFtcBIbu21Ns4Zrpc98g-Ly2HPmlDVcoz7g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "admission_date": "2022-04-22T12:00:48+02:00"
         },
@@ -36,7 +36,7 @@
             "id": 5,
             "name": "Giovana L. Arruda",
             "office": "Back-end",
-            "phone": 5511964324071,
+            "phone": "5511964324071",
             "photo": "https://s3-alpha-sig.figma.com/img/e468/72ae/0b029f540984b0df2c2881c85304f655?Expires=1681084800&Signature=GaH9cdnFDlilSGl0jiM7H6GXd8~c6LDHTbW-uPnKqJm9tpsGp0EZ-4LxUfTY9m5ZX5SG5G0N592PB-rnW9U~7~hceF2BeJeC~l7raJmM10mMUezK7RY6DxwAOhxTQRE7epKVEm1t3~OQejD0DLSPlMNMGTAOL4xFifZ1gMrP4CASf4HmTA8CD0Qm5Mj3HGVtdI-TeEi49t9YlmHh~86RVX5vb0XKZLQmpypwc2NL0iQQxhj0AHZGhUhH3VFHd9CCirgL5WQd0b1pE-WwU3AJ~6w7uUVdnpxJHiHk1X5m9NQo0fjMGy7PDI0cgBAkm6rfoCP8yp3D3bsQPFuvP4py6A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "admission_date": "2022-04-22T12:00:48+02:00"
         },
@@ -44,7 +44,7 @@
             "id": 6,
             "name": "Luciano Triumfo",
             "office": "Designer",
-            "phone": 5511965324071,
+            "phone": "5511965324071",
             "photo": "https://s3-alpha-sig.figma.com/img/e4ce/87c7/0d44829fc1f821f75772661b7078f9fd?Expires=1681084800&Signature=TSTWWhjZt7521yA2dAXYeAskfFhOq5q8IINfv0cn8qQkXMtQB~vnE96SvinYwM8IHkWFrgBG-Ieln~OpUvXsLAkZWR7YepgLNf43tXO6XMYPE-hbdRZZnsQdGahA45No4a6C~Hg8pe4l-Etth2EUlpF8fB1avB-jrvurTizKc7Yu~tqWs4IeUQ474DLdpbZjNrE7xuAoZVxWRI3EusRo6DSte5qM8hQAPEg4jQBGL4ysdaoN5eAkw0RNTVMFF3VaSCrdsNBSziKNxs359K939NLNHJ-71NARW3ugtar-qT0B2jEsbB-gFtcBIbu21Ns4Zrpc98g-Ly2HPmlDVcoz7g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "admission_date": "2022-04-22T12:00:48+02:00"
         },
@@ -52,7 +52,7 @@
             "id": 7,
             "name": "Rodrigo Mota",
             "office": "Front-end",
-            "phone": 5511966324071,
+            "phone": "5511966324071",
             "photo": "https://s3-alpha-sig.figma.com/img/073b/b776/f3b212a8e1c74191d88af2736aa635b6?Expires=1681084800&Signature=MIqL9ZqUv1R-das~5ov7srB61zh8YNjOe7USXVfnYyWWD~qSUJUWPI2W7nLrwdeFo5OstklxHR6ZNvnt67BQuI1bRmKZojf4yxw3JG~PFsvmc4kVbz4egu5fxjT-6bgMtmT9idi7FY5WtshvXkQ5KP2x5XLaE7fTotML15pjnGsKwWGnwqQDuaf6t07hbnkYzOvDr47W2q3NK4KsXsvCk7lkBt7T2PJfI~tBPWRq0St0PDBQbYJV4ikRNsGFriKC38Mb5WAzO6vAmjmM1WYgDeYl79PhA5m2ZoNF7diUpv82BIehUGTZxdYD2a9T677GDt20wlek2kSheewTddLxwA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "admission_date": "2022-04-22T12:00:48+02:00"
         },
@@ -60,7 +60,7 @@
             "id": 8,
             "name": "Giovana L. Arruda",
             "office": "Back-end",
-            "phone": 5511967324071,
+            "phone": "5511967324071",
             "photo": "https://s3-alpha-sig.figma.com/img/e468/72ae/0b029f540984b0df2c2881c85304f655?Expires=1681084800&Signature=GaH9cdnFDlilSGl0jiM7H6GXd8~c6LDHTbW-uPnKqJm9tpsGp0EZ-4LxUfTY9m5ZX5SG5G0N592PB-rnW9U~7~hceF2BeJeC~l7raJmM10mMUezK7RY6DxwAOhxTQRE7epKVEm1t3~OQejD0DLSPlMNMGTAOL4xFifZ1gMrP4CASf4HmTA8CD0Qm5Mj3HGVtdI-TeEi49t9YlmHh~86RVX5vb0XKZLQmpypwc2NL0iQQxhj0AHZGhUhH3VFHd9CCirgL5WQd0b1pE-WwU3AJ~6w7uUVdnpxJHiHk1X5m9NQo0fjMGy7PDI0cgBAkm6rfoCP8yp3D3bsQPFuvP4py6A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "admission_date": "2022-04-22T12:00:48+02:00"
         },
@@ -68,7 +68,7 @@
             "id": 9,
             "name": "Luciano Triumfo",
             "office": "Designer",
-            "phone": 5511968324071,
+            "phone": "5511968324071",
             "photo": "https://s3-alpha-sig.figma.com/img/073b/b776/f3b212a8e1c74191d88af2736aa635b6?Expires=1681084800&Signature=MIqL9ZqUv1R-das~5ov7srB61zh8YNjOe7USXVfnYyWWD~qSUJUWPI2W7nLrwdeFo5OstklxHR6ZNvnt67BQuI1bRmKZojf4yxw3JG~PFsvmc4kVbz4egu5fxjT-6bgMtmT9idi7FY5WtshvXkQ5KP2x5XLaE7fTotML15pjnGsKwWGnwqQDuaf6t07hbnkYzOvDr47W2q3NK4KsXsvCk7lkBt7T2PJfI~tBPWRq0St0PDBQbYJV4ikRNsGFriKC38Mb5WAzO6vAmjmM1WYgDeYl79PhA5m2ZoNF7diUpv82BIehUGTZxdYD2a9T677GDt20wlek2kSheewTddLxwA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "admission_date": "2022-04-22T12:00:48+02:00"
         },
@@ -76,7 +76,7 @@
             "id": 10,
             "name": "Rodrigo Mota",
             "office": "Front-end",
-            "phone": 5511969324071,
+            "phone": "5511969324071",
             "photo": "https://s3-alpha-sig.figma.com/img/073b/b776/f3b212a8e1c74191d88af2736aa635b6?Expires=1681084800&Signature=MIqL9ZqUv1R-das~5ov7srB61zh8YNjOe7USXVfnYyWWD~qSUJUWPI2W7nLrwdeFo5OstklxHR6ZNvnt67BQuI1bRmKZojf4yxw3JG~PFsvmc4kVbz4egu5fxjT-6bgMtmT9idi7FY5WtshvXkQ5KP2x5XLaE7fTotML15pjnGsKwWGnwqQDuaf6t07hbnkYzOvDr47W2q3NK4KsXsvCk7lkBt7T2PJfI~tBPWRq0St0PDBQbYJV4ikRNsGFriKC38Mb5WAzO6vAmjmM1WYgDeYl79PhA5m2ZoNF7diUpv82BIehUGTZxdYD2a9T677GDt20wlek2kSheewTddLxwA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             "admission_date": "2022-04-22T12:00:48+02:00"
         }
