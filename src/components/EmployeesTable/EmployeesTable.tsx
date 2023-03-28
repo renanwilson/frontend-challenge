@@ -1,12 +1,25 @@
 import { useEmployeesContext } from "contexts/EmployeesContext";
+import { useSearchEmployeesContext } from "contexts/SearchEmployeesContext";
 import React from "react";
-import { getDate } from "utils/getDate";
-import { getPhoneNumber } from "utils/getPhoneNumber";
-import { Container, Table, Image } from "./styles";
+import { Container, Table } from "./styles";
+import { TableData } from "./TableData/TableData";
 
 export function EmployeesTable() {
   const TITLES = ["Foto", "Nome", "Cargo", "Data de admissão", "Telefone"];
   const { employees } = useEmployeesContext();
+  const { searchEmployees } = useSearchEmployeesContext();
+  const replaceSearch = searchEmployees.replace(/[^a-zA-Z0-9]/g, "");
+
+  const filteredEmployees =
+    searchEmployees.length > 0
+      ? employees.filter(
+          (employee) =>
+            employee.name.toLowerCase().includes(searchEmployees) ||
+            employee.office.toLowerCase().includes(searchEmployees) ||
+            employee.phone.toLowerCase().includes(replaceSearch)
+        )
+      : [];
+
   return (
     <Container>
       <Table>
@@ -18,27 +31,11 @@ export function EmployeesTable() {
               </th>
             ))}
           </tr>
-          {employees.map((employee) => {
-            return (
-              <tr key={employee.id}>
-                <td>
-                  <Image src={employee.photo} alt="Imagem" />
-                </td>
-                <td>
-                  <p>{employee.name}</p>
-                </td>
-                <td>
-                  <p>{employee.office}</p>
-                </td>
-                <td>
-                  <p>{getDate(employee.admission_date)}</p>
-                </td>
-                <td>
-                  <p>{getPhoneNumber(employee.phone)}</p>
-                </td>
-              </tr>
-            );
-          })}
+          {searchEmployees.length > 0 ? (
+            <TableData employees={filteredEmployees} />
+          ) : (
+            <TableData employees={employees} />
+          )}
         </tbody>
       </Table>
     </Container>
