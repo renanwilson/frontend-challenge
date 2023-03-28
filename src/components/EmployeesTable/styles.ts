@@ -22,7 +22,3 @@ export const Container = styled.div`
   width: 96.5%;
   margin: 32px;
 `;
-export const Image = styled.img`
-  width: 4rem;
-  border-radius: 50%;
-`;
