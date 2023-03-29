@@ -10,6 +10,7 @@ export const Search = styled.input`
   background-position: 95% center;
   border: 1px solid #cdcdcd;
   font-size: 16px;
+  font-weight: 400;
   border-radius: 4px;
   &:focus-visible {
     border: 1px solid #cdcdcd;
