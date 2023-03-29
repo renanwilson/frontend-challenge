@@ -1,7 +1,7 @@
 import { IEmployees } from "interfaces/IEmployees";
 import { getDate } from "utils/getDate";
 import { getPhoneNumber } from "utils/getPhoneNumber";
-import { Image } from "./styles";
+import { Photo } from "./styles";
 type TableDataProps = {
   employees: IEmployees[];
 };
@@ -13,7 +13,7 @@ export function TableData({ employees }: TableDataProps) {
           <tbody key={employee.id}>
             <tr>
               <td>
-                <Image src={employee.photo} alt="Imagem" />
+                <Photo src={employee.photo} alt="Foto do funcionário" />
               </td>
               <td>
                 <p>{employee.name}</p>
