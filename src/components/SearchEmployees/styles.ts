@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import searchIcon from "images/searchIcon.png";
+import searchIcon from "assets/images/searchIcon.png";
 
 export const Search = styled.input`
   width: 20%;
