@@ -10,26 +10,27 @@ export function TableData({ employees }: TableDataProps) {
     <>
       {employees.map((employee) => {
         return (
-          <tr key={employee.id}>
-            <td>
-              <Image src={employee.photo} alt="Imagem" />
-            </td>
-            <td>
-              <p>{employee.name}</p>
-            </td>
-            <td>
-              <p>{employee.office}</p>
-            </td>
-            <td>
-              <p>{getDate(employee.admission_date)}</p>
-            </td>
-            <td>
-              <p>{getPhoneNumber(employee.phone)}</p>
-            </td>
-          </tr>
+          <tbody key={employee.id}>
+            <tr>
+              <td>
+                <Image src={employee.photo} alt="Imagem" />
+              </td>
+              <td>
+                <p>{employee.name}</p>
+              </td>
+              <td>
+                <p>{employee.office}</p>
+              </td>
+              <td>
+                <p>{getDate(employee.admission_date)}</p>
+              </td>
+              <td>
+                <p>{getPhoneNumber(employee.phone)}</p>
+              </td>
+            </tr>
+          </tbody>
         );
       })}
-      ,
     </>
   );
 }

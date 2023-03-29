@@ -10,11 +10,11 @@ export function EmployeesTable() {
   const { employees } = useEmployeesContext();
   const { searchEmployees } = useSearchEmployeesContext();
   const { filteredEmployees } = useFilteredEmployees();
-  
+
   return (
     <Container>
       <Table>
-        <tbody>
+        <thead>
           <tr>
             {TITLES.map((title) => (
               <th key={title}>
@@ -22,12 +22,12 @@ export function EmployeesTable() {
               </th>
             ))}
           </tr>
-          {searchEmployees.length > 0 ? (
-            <TableData employees={filteredEmployees} />
-          ) : (
-            <TableData employees={employees} />
-          )}
-        </tbody>
+        </thead>
+        {searchEmployees.length > 0 ? (
+          <TableData employees={filteredEmployees} />
+        ) : (
+          <TableData employees={employees} />
+        )}
       </Table>
     </Container>
   );
