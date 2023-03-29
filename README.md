@@ -1,6 +1,6 @@
 # desafio front-end be mobile!
 
-## 🚀 Technologies
+## 🚀 Tecnologias
 
 Este projeto está usando: 
 - [ReactJS](https://reactjs.org)
