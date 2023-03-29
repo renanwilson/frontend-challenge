@@ -1,5 +1,6 @@
 import { useEmployeesContext } from "contexts/EmployeesContext";
 import { useSearchEmployeesContext } from "contexts/SearchEmployeesContext";
+import { useFilteredEmployees } from "hooks/useFilteredEmployees";
 import React from "react";
 import { Container, Table } from "./styles";
 import { TableData } from "./TableData/TableData";
@@ -8,18 +9,8 @@ export function EmployeesTable() {
   const TITLES = ["Foto", "Nome", "Cargo", "Data de admissão", "Telefone"];
   const { employees } = useEmployeesContext();
   const { searchEmployees } = useSearchEmployeesContext();
-  const replaceSearch = searchEmployees.replace(/[^a-zA-Z0-9]/g, "");
-
-  const filteredEmployees =
-    searchEmployees.length > 0
-      ? employees.filter(
-          (employee) =>
-            employee.name.toLowerCase().includes(searchEmployees) ||
-            employee.office.toLowerCase().includes(searchEmployees) ||
-            employee.phone.toLowerCase().includes(replaceSearch)
-        )
-      : [];
-
+  const { filteredEmployees } = useFilteredEmployees();
+  
   return (
     <Container>
       <Table>
