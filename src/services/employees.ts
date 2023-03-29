@@ -3,7 +3,7 @@ import React from "react";
 import { IEmployees } from "../interfaces/IEmployees";
 
 export const service = axios.create({
-  baseURL: "http://localhost:3000/",
+  baseURL: process.env.REACT_APP_API_BASEURL,
 });
 export const getEmployees = async (
   setPost: React.Dispatch<React.SetStateAction<IEmployees[]>>
