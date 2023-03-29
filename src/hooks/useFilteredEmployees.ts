@@ -11,7 +11,7 @@ export function useFilteredEmployees() {
           (employee) =>
             employee.name.toLowerCase().includes(searchEmployees) ||
             employee.office.toLowerCase().includes(searchEmployees) ||
-            employee.phone.toLowerCase().includes(replaceSearch)
+            employee.phone.includes(replaceSearch)
         )
       : [];
   return { filteredEmployees };
