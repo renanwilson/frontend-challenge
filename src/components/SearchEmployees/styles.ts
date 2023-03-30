@@ -16,4 +16,10 @@ export const Search = styled.input`
     border: 1px solid #cdcdcd;
     outline: none;
   }
+  &::-webkit-search-cancel-button,
+  ::-webkit-search-decoration,
+  ::-webkit-search-results-button,
+  ::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+  }
 `;
